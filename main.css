@@ -79,7 +79,7 @@
 }
 
 html {
-	background: #badbc9 url(bg.png) no-repeat center center fixed;
+	background: #badbc9 url(blur-background10_small.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -120,6 +120,13 @@ h2 {
 
 a {
 	color: #46a9d1;
+}
+
+#aboutme p {
+	margin: 40px auto;
+	max-width: 382px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 .container {
@@ -221,6 +228,12 @@ a {
 .links a {
 	font-size: 20px;
 	color: #fff;
+}
+
+.attribution {
+	position: absolute;
+	bottom: 2px;
+	right: 5px;
 }
 
 .more {
